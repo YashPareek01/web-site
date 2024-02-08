@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Merriweather:ital,wght@0,400;1,700&display=swap');
+
+body{
+    position: relative;
+    z-index: -1;
+
+}
+h1 {
+    font-family: 'Arizonia', cursive;
+}
+
+h3,h2 ,h4{
+    font-family: 'Arizonia', cursive;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.background{
+    position: absolute;
+    top: 10;
+    left: 0;
+    height: 95vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content{
+    position: relative;
+    z-index: 10;
+}
+
